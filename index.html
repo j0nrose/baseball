@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Run Heroes - Baseball Central</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="baseball-icon">⚾</span>
+                    <h1>Home Run Heroes</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#teams">Teams</a></li>
+                    <li><a href="#players">Players</a></li>
+                    <li><a href="#stats">Stats</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to the Diamond</h2>
+                <p>Your ultimate destination for baseball stats, news, and analysis</p>
+                <button class="cta-button">Explore Now</button>
+            </div>
+            <div class="hero-image">
+                <div class="baseball-field"></div>
+            </div>
+        </section>
+
+        <section id="teams" class="teams-section">
+            <div class="container">
+                <h2>Featured Teams</h2>
+                <div class="teams-grid">
+                    <div class="team-card">
+                        <div class="team-logo">⚾</div>
+                        <h3>Thunder Bolts</h3>
+                        <p>Record: 45-20</p>
+                        <button class="team-btn">View Stats</button>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-logo">⚾</div>
+                        <h3>Lightning Strikes</h3>
+                        <p>Record: 42-23</p>
+                        <button class="team-btn">View Stats</button>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-logo">⚾</div>
+                        <h3>Storm Chasers</h3>
+                        <p>Record: 38-27</p>
+                        <button class="team-btn">View Stats</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="players" class="players-section">
+            <div class="container">
+                <h2>Star Players</h2>
+                <div class="players-grid">
+                    <div class="player-card">
+                        <div class="player-avatar">👨‍⚾</div>
+                        <h3>Mike Rodriguez</h3>
+                        <p class="position">Pitcher</p>
+                        <div class="stats">
+                            <span>ERA: 2.45</span>
+                            <span>Wins: 15</span>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-avatar">👨‍⚾</div>
+                        <h3>Sarah Johnson</h3>
+                        <p class="position">Shortstop</p>
+                        <div class="stats">
+                            <span>AVG: .325</span>
+                            <span>HRs: 28</span>
+                        </div>
+                    </div>
+                    <div class="player-card">
+                        <div class="player-avatar">👨‍⚾</div>
+                        <h3>Tony Martinez</h3>
+                        <p class="position">Outfield</p>
+                        <div class="stats">
+                            <span>AVG: .298</span>
+                            <span>RBIs: 85</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <h2>League Statistics</h2>
+                <div class="stats-dashboard">
+                    <div class="stat-card">
+                        <h3>Games Played</h3>
+                        <span class="stat-number" data-target="1,247">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Home Runs</h3>
+                        <span class="stat-number" data-target="3,456">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Strikeouts</h3>
+                        <span class="stat-number" data-target="12,890">0</span>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Stolen Bases</h3>
+                        <span class="stat-number" data-target="892">0</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="news" class="news-section">
+            <div class="container">
+                <h2>Latest News</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <h3>Championship Series Begins</h3>
+                        <p class="news-date">June 25, 2025</p>
+                        <p>The highly anticipated championship series kicks off this weekend with exciting matchups...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="news-card">
+                        <h3>Rookie of the Year Nominees</h3>
+                        <p class="news-date">June 23, 2025</p>
+                        <p>Five outstanding rookies have been nominated for this year's prestigious award...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                    <article class="news-card">
+                        <h3>Trade Deadline Approaching</h3>
+                        <p class="news-date">June 20, 2025</p>
+                        <p>Teams are making final preparations as the trade deadline approaches next month...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Home Run Heroes</h3>
+                    <p>Your premier destination for baseball content and community.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#teams">Teams</a></li>
+                        <li><a href="#players">Players</a></li>
+                        <li><a href="#stats">Statistics</a></li>
+                        <li><a href="#news">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: info@homerunheroes.com</p>
+                    <p>Phone: (555) 123-BALL</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Home Run Heroes. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
